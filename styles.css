@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+	background-color: #FFEEA3;
+
+}
+
+h1{
+	font-size: 10rem;
+}
+
+h2{font-size: 1rem;
+}
+
+h3{ font-size: 1rem;}
+p{
+	font-size: .9rem;
+}
+
+/* ---------- Navegación principal ------------ */
+.main-nav{
+	background-color: #33ad3d;
+	position: fixed;
+	z-index: 100;
+	width: 50rem;
+	height: 100vh;
+	box-shadow: .5rem 0 .5rem rgba(104, 36, 20, .5);
+}
+.main-nav__Container{
+	/* border: solid 4px #f1a45c; */
+	width: 8rem;
+	position: fixed;
+	top: 50%;
+	left: 22rem;
+	transform: translateY(-50%);
+}
+.main-nav__item{
+	margin: 2rem 0;
+}
+.main-nav__item li{
+	background-color: #682414;
+	color: #FFEEA3;
+	display: inline-block;
+	width: 100%;
+	padding: .3rem .8rem;
+	border-radius: 1rem;
+}
+
+@media screen and ( max-width: 50rem ){
+	.main-nav{
+		width: 100%;
+		height: 6rem;
+		box-shadow: 0 .5rem  .5rem rgba(104, 36, 20, .5);
+	}
+	.main-nav__container{
+		width: 100%;
+		position: relative;
+		left: 0;
+		text-align: center;
+	}
+	.main-nav__item{
+		display: inline-block;
+		margin: 0 1.5vw;
+	}
+
+}
+
+@media screen and ( max-width: 30rem){
+	.main-nav{
+		height: 3rem;
+	}
+	.main-nav__item a{
+		font-size: 0.7rem;
+	}
+	.main-nav__item{
+		margin: 0 .8vw;
+	}
+
+}
+
+.Article {
+	background-color: #2d68d6;
+	position: fixed;
+	right: 0%;
+	z-index: 100;
+	width: 50rem;
+	height: 55vh;
+	box-shadow: .5rem 0 .5rem rgba(104, 36, 20, .5);
+}
+
+.Galery {
+	background-color: #d6d32d;
+	position: fixed;
+	right: 0%;
+	top: 28rem;
+	z-index: 100;
+	width: 50rem;
+	height: 55vh;
+	box-shadow: .5rem 0 .5rem rgba(104, 36, 20, .5);
+}
