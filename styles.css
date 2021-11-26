@@ -20,32 +20,32 @@ body {
 
 /*main*/
 
-.main-nav {
-    position:relative;
-	z-index: 1;
-	width: 100vw;
-	height: 5rem;
-    background: rgb(45, 62, 207);
-}
-
-.main-nav_container {
-    position: fixed;
+.main-nav{
+    background-color: blue;
+    height: 3rem;
     text-align: center;
-    top: 75%;
-    transform: translateY(-50%);
+    width: 100vw;
+    text-align: center;
+    position: flex;
+    
 }
 
-.main-nav_item {
-    vertical-align: middle;
+.main-nav_container{
+    color: white;
+    height: 2rem;
+    text-decoration: underline 2px white;
+    text-align: center;
 }
+ 
+    
 
-.main-nav_item a{
-    color:rgba(81, 241, 66, 0.582);
-    margin: 2rem;
-}
-
-.main-nav_item :hover {
-    text-decoration: underline .2rem; 
+.main-nav_item{
+    margin: 1rem;
+    display: inline-block;
+    padding: .1rem .5rem;
+    justify-content:space-evenly; 
+    font-size: x-small;
+   
 }
 
 
@@ -117,7 +117,7 @@ p{
     text-align: left;
     font-size: 3rem;
     padding-top: 1rem;
-    color:white;
+    color:black;
 }
 .imagen {
     text-align: center;
